@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "auger"
+version = "0.1.0"
+description = "A toolkit for stubborn pipelines"
+authors = ["Sam Nicholls <sam@samnicholls.net>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rich = "^11.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+black = "^22.1.0"
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
